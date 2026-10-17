@@ -1,4 +1,6 @@
 """Switch frames per half (from velvet_layout) and the switch + cap solids on them."""
+from pathlib import Path
+
 from build123d import Pos, Rot, import_step
 
 from velvet.params import *  # noqa: F401,F403
@@ -29,6 +31,9 @@ LEGEND_X = {"L_r3c2": "ALT", "L_r3c3": "CTRL", "R_r3c2": "-", "R_r3c3": "'", "L_
             "R_t0": "ENT", "R_t1": "BSPC", "R_t2": "DEL", "R_t3": "SHFT"}
 
 
+LEGEND_FONT = Path.home() / "Library/Fonts/CPMono_v07 Bold.otf"   # Willy 14:19 'one of the dope futuristic fonts' (installed; Orbitron would be a download)
+
+
 def legend_text(k):
     if k in LEGEND_X:
         return LEGEND_X[k]
@@ -41,7 +46,7 @@ def legend(k):
     from build123d import Text, extrude
     t = legend_text(k)
     cap = dsa_cap(VL.cap_u(k))
-    txt = Pos(0, 0, DSA_H - 2.5) * extrude(Text(t, 4.5 if len(t) == 1 else 2.6), 3.0)
+    txt = Pos(0, 0, DSA_H - 2.5) * extrude(Text(t, 4.5 if len(t) == 1 else 2.4, font_path=str(LEGEND_FONT) if LEGEND_FONT.exists() else None), 3.0)
     return (txt & (Pos(0, 0, 0.12) * cap)) - cap
 
 

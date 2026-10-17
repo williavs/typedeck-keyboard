@@ -4,11 +4,14 @@ A foldable split keyboard with a Raspberry Pi in it. Each half tents on its own 
 
 Designed in code (build123d) around real catalog STEP files of the parts inside it (key switches, Pi, screen, Picos, encoder, LEDs, slide switches): holes, pockets and clearances are cut from the parts' actual geometry.
 
-![typedeck, both halves](images/typedeck_top.png)
+![typedeck, both halves](images/typedeck_angle.png)
 
-![typedeck, three-quarter view](images/typedeck_angle.png)
+![typedeck, tented on its stands](images/typedeck_tent24.png)
 
-![typedeck, back: ports and switches](images/typedeck_back.png)
+| | |
+|---|---|
+| ![top](images/typedeck_top.png) | ![x-ray: the two Pico 2 W boards, the Pi Zero 2 W + PiTFT stack, the 18650 cells](images/typedeck_xray.png) |
+| ![left half tented, from above](images/typedeck_tent28.png) | ![back: ports and switches](images/typedeck_back.png) |
 
 > These are renders. Photos of the printed build are coming.
 
