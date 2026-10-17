@@ -1,0 +1,11 @@
+00_test_coupons          body PLA/PETG             3 parts, tallest  12.0 mm,    8.9 cm3: velvet_pin_coupon_0.2, velvet_pin_coupon_0.3, velvet_pin_coupon_0.4
+01_hull_R                body                      1 parts, tallest  29.4 mm,  136.9 cm3: velvet_hull_R
+02_hull_L                body                      1 parts, tallest  29.4 mm,  130.3 cm3: velvet_hull_L
+03_base_R                body                      1 parts, tallest  13.1 mm,  156.4 cm3: velvet_base_R
+04_base_L                body                      1 parts, tallest  13.1 mm,  121.6 cm3: velvet_base_L
+05_hatch_R_pins          body                     12 parts, tallest  12.5 mm,   77.5 cm3: velvet_hatch_R, velvet_tent_pin_L, velvet_tent_pin_R, velvet_rest_pin_R, velvet_rest_pin_L, velvet_pi_otg_cover, velvet_flap_pin#1, velvet_flap_pin#2, velvet_flap_pin#3, velvet_flap_pin#4, velvet_pi_stack_spacer#1, velvet_pi_stack_spacer#2
+06_hatch_L_flap_knob     body                      4 parts, tallest  12.5 mm,  141.3 cm3: velvet_hatch_L, velvet_flap#1, velvet_flap#2, velvet_knob
+07_crowns_caps           crown colour              6 parts, tallest   4.4 mm,   12.6 cm3: velvet_crown_R, velvet_crown_L, velvet_pitft_cap#1, velvet_pitft_cap#2, velvet_pitft_cap#3, velvet_pitft_cap#4
+08_clear                 clear                     7 parts, tallest   2.3 mm,    6.5 cm3: velvet_light_guide_cyan_L, velvet_light_guide_magenta_L, velvet_light_guide_cyan_R, velvet_light_guide_magenta_R, velvet_led_diffuser_R, velvet_pico_pane_R, velvet_pico_pane_L
+09_overlay               trackpad overlay colour   1 parts, tallest   0.6 mm,    1.1 cm3: velvet_tp_overlay_R
+10_tpu_pads              TPU                       2 parts, tallest   2.8 mm,   50.0 cm3: velvet_wrist_pad_tpu_R, velvet_wrist_pad_tpu_L
