@@ -13,7 +13,16 @@ Designed in code (build123d) around real catalog STEP files of the parts inside 
 | ![top](images/typedeck_top.png) | ![x-ray: the two Pico 2 W boards, the Pi Zero 2 W + PiTFT stack, the 18650 cells](images/typedeck_xray.png) |
 | ![left half tented, from above](images/typedeck_tent28.png) | ![back: ports and switches](images/typedeck_back.png) |
 
-> These are renders. Photos of the printed build are coming.
+> These are renders. Mid-build photos of the printed halves are below.
+
+## Mid-build
+
+![both halves open, hand-wired](images/build_side_by_side.jpg)
+
+| | |
+|---|---|
+| ![both halves, top down](images/build_both_open.jpg) | ![left half: knob encoder, charge cartridge, 18650](images/build_left_knob.jpg) |
+| ![right half with the screen running typedeck](images/build_right_screen.jpg) | |
 
 ## What's in it
 
